@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "624yAzXn2dddN0DnnnOejgUZevL1qaGeT/hgOnyL4yZfkVTXRVnZ0rNaO1brrHgUBBl29S1Fl1Fybn+Uf/sHDg==",
+  "dgSpecHash": "T4qDv92u13ihwE5+Yi80Vb2T9KkeYZd/3k8PtBe/pVMh5NtG40FMnJ8hqAuJMC+n4jEhkEF6a3t68TO6rHBKEQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\FifoAPI.csproj",
+  "projectFilePath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\aleli\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.14\\microsoft.entityframeworkcore.2.1.14.nupkg.sha512",
@@ -28,6 +28,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.0.1\\microsoft.win32.primitives.4.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.0\\netstandard.library.1.6.0.nupkg.sha512",
+    "C:\\Users\\aleli\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\remotion.linq\\2.2.0\\remotion.linq.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system\\4.0.0\\runtime.native.system.4.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",

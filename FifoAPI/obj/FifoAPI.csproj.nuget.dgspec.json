@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\FifoAPI.csproj": {}
+    "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\FifoAPI.csproj": {
+    "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\FifoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
         "projectName": "FifoAPI",
-        "projectPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\FifoAPI.csproj",
+        "projectPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
         "packagesPath": "C:\\Users\\aleli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FifoAPI\\obj\\",
+        "outputPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -56,6 +56,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.14, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
             }
           },
           "imports": [
