@@ -9,6 +9,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FifoAPI.Controllers
 {
+    [Produces("application/json")]
+
+    [Route("api/[controller]")]
+
+    [ApiController]
     public class UsuarioController : Controller
     {
         private IUsuarioRepository _usuarioRepository;
@@ -66,7 +71,7 @@ namespace FifoAPI.Controllers
             }
         }
 
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
             try

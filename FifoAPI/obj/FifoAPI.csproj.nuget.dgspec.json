@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj": {}
+    "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\FifoAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj": {
+    "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\FifoAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
+        "projectUniqueName": "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\FifoAPI.csproj",
         "projectName": "FifoAPI",
-        "projectPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
+        "projectPath": "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\FifoAPI.csproj",
         "packagesPath": "C:\\Users\\aleli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\obj\\",
+        "outputPath": "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -23,14 +23,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -41,8 +41,19 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.1, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "target": "Package",
               "version": "[2.1.14, )"
@@ -57,9 +68,11 @@
               "target": "Package",
               "version": "[2.1.14, )"
             },
-            "Newtonsoft.Json": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             }
           },
           "imports": [
@@ -72,14 +85,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
