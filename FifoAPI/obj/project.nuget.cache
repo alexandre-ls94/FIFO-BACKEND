@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KAc/EPYHZpNCZiNdbUEO/tXNyU1yOZ81yMLfYzAlb3p4hKvazMsHM8M/C3eOaqdkmqDhdu+ZV2w1z+40DX+lQw==",
+  "dgSpecHash": "3Ku0yQhnv5AIyxsbWaP0XDoFTUSp3dwHeXhu5T2ygson2pzDyxhtZBuRTFSAmU6hS7/qQPykna+1AwEswQ7Yow==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aleli\\OneDrive\\Área de Trabalho\\FifoAPI\\FifoAPI.csproj",
+  "projectFilePath": "C:\\Users\\aleli\\OneDrive\\Documentos\\FIFO-BACKEND\\FifoAPI\\FifoAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
