@@ -89,6 +89,230 @@
 				}
 			],
 			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Fila",
+			"item": [
+				{
+					"name": "Listar registro da fila",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Fila/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Fila",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar fila",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Fila",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Fila"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar registro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"estado\": \"Em Fila\",\r\n    \"idAtividade\": 1,\r\n    \"idUsuario\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/Fila",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Fila"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar registro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"estado\": \"Fora da fila\",\r\n    \"idAtividade\": 1,\r\n    \"idUsuario\": 1\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/Fila/5",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Fila",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar registro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Fila/5",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Fila",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
+		},
+		{
+			"name": "Atividade",
+			"item": [
+				{
+					"name": "Listar atividades",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Atividade",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Atividade"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Listar atividades por id",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Atividade/1",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Atividade",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cadastrar atividade",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"PlayStation\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/Atividade",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Atividade"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Atualizar atividade",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"titulo\": \"PlayStation5\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/Atividade/2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Atividade",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Deletar atividade",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/Atividade/2",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"Atividade",
+								"2"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"protocolProfileBehavior": {}
 		}
 	],
 	"protocolProfileBehavior": {}

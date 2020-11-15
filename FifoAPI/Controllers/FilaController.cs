@@ -62,6 +62,8 @@ namespace FifoAPI.Controllers
         {
             try
             {
+                novoRegistro.CreatedAt = DateTime.Now;
+
                 _filaRepository.Cadastrar(novoRegistro);
 
                 return StatusCode(201, novoRegistro);
