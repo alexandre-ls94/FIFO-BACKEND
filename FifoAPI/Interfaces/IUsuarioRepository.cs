@@ -12,6 +12,8 @@ namespace FifoAPI.Interfaces
 
         Usuario BuscarPorId(int id);
 
+        Usuario BuscarPorNicknameSenha(string nickname, string senha);
+
         void Cadastrar(Usuario usuario);
 
         void Deletar(int id);

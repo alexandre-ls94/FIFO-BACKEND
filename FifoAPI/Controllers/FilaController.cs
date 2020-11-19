@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FifoAPI.Domains;
 using FifoAPI.Interfaces;
 using FifoAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -15,6 +16,7 @@ namespace FifoAPI.Controllers
     [Route("api/[controller]")]
     
     [ApiController]
+    [Authorize]
     public class FilaController : ControllerBase
     {
         private IFilaRepository _filaRepository;
@@ -75,7 +77,6 @@ namespace FifoAPI.Controllers
         }
 
         [HttpPut("{id}")]
-
         public IActionResult Put(int id, Fila registroAtualizado)
         {
             try

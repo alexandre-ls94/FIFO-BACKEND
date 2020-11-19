@@ -16,6 +16,11 @@ namespace FifoAPI.Repositories
             return ctx.Usuario.FirstOrDefault(u => u.Id == id);
         }
 
+        public Usuario BuscarPorNicknameSenha(string nickname, string senha)
+        {
+            return ctx.Usuario.FirstOrDefault(u => u.Nickname == nickname && u.Senha == senha);
+        }
+
         public void Cadastrar(Usuario usuario)
         {
             ctx.Usuario.Add(usuario);

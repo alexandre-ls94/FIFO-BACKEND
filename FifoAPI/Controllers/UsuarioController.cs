@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using FifoAPI.Domains;
 using FifoAPI.Interfaces;
 using FifoAPI.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FifoAPI.Controllers
@@ -24,6 +25,7 @@ namespace FifoAPI.Controllers
         }
 
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             try
@@ -37,6 +39,7 @@ namespace FifoAPI.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize]
         public IActionResult GetById(int id)
         {
             try
@@ -77,6 +80,7 @@ namespace FifoAPI.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize]
         public IActionResult Delete(int id)
         {
             try
