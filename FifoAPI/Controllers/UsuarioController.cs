@@ -61,9 +61,14 @@ namespace FifoAPI.Controllers
         {
             try
             {
-                _usuarioRepository.Cadastrar(novoUsuario);
+                if (novoUsuario.Senha != null && novoUsuario.Nickname != null)
+                {
+                    _usuarioRepository.Cadastrar(novoUsuario);
 
-                return StatusCode(201, novoUsuario);
+                    return StatusCode(201, novoUsuario);
+                }
+
+                return BadRequest("Todos as informações são obrigatórias");
             }
             catch (Exception e)
             {
