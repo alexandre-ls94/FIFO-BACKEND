@@ -8,3 +8,7 @@ VALUES ('Ale');
 
 INSERT INTO Fila (Estado, CreatedAt, IdAtividade, IdUsuario)
 VALUES ('Em Fila', '06-02-2020', 1, 1);
+
+UPDATE Usuario
+SET Senha = 'senha123'
+WHERE Id = 1;

@@ -19,3 +19,6 @@ CREATE TABLE Fila (
 	IdAtividade INT FOREIGN KEY REFERENCES Atividade(Id),
 	IdUsuario INT FOREIGN KEY REFERENCES Usuario(Id)
 );
+
+ALTER TABLE Usuario
+ADD Senha Varchar(55);
