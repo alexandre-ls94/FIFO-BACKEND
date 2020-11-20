@@ -64,11 +64,18 @@ namespace FifoAPI.Controllers
         {
             try
             {
+                Usuario usuarioBuscado = _usuarioRepository.Listar().FirstOrDefault(u => u.Nickname == novoUsuario.Nickname);
+
                 if (novoUsuario.Senha != null && novoUsuario.Nickname != null)
                 {
-                    _usuarioRepository.Cadastrar(novoUsuario);
+                    if (usuarioBuscado == null)
+                    {
+                        _usuarioRepository.Cadastrar(novoUsuario);
 
-                    return StatusCode(201, novoUsuario);
+                        return StatusCode(201, novoUsuario); 
+                    }
+
+                    return BadRequest("Usuário já existe");
                 }
 
                 return BadRequest("Todos as informações são obrigatórias");
