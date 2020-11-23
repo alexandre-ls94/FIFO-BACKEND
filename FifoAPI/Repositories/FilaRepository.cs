@@ -49,6 +49,21 @@ namespace FifoAPI.Repositories
             ctx.SaveChanges();
         }
 
+        public void DeletarRegistrosPorAtividade(int idAtividade)
+        {
+            List<Fila> lista = Listar();
+
+            foreach (var item in lista)
+            {
+                if (item.IdAtividade == idAtividade)
+                {
+                    ctx.Fila.Remove(item);
+                }
+            }
+
+            ctx.SaveChanges();
+        }
+
         public List<Fila> Listar()
         {
             return ctx.Fila

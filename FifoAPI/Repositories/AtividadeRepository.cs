@@ -11,6 +11,8 @@ namespace FifoAPI.Repositories
     {
         FifoContext ctx = new FifoContext();
 
+        FilaRepository _filaRepository = new FilaRepository();
+
         public void Atualizar(int id, Atividade atividadeAtualizada)
         {
             Atividade atividadeAtual = BuscarPorId(id);
@@ -40,6 +42,8 @@ namespace FifoAPI.Repositories
         public void Deletar(int id)
         {
             Atividade atividadeBuscada = ctx.Atividade.Find(id);
+
+            _filaRepository.DeletarRegistrosPorAtividade(id);
 
             ctx.Atividade.Remove(atividadeBuscada);
 

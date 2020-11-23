@@ -16,6 +16,8 @@ namespace FifoAPI.Interfaces
 
         void Deletar(int id);
 
+        void DeletarRegistrosPorAtividade(int idAtividade);
+
         void Atualizar(int id, Fila filaAtualizada);
     }
 }
