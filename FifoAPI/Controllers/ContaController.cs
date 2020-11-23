@@ -49,8 +49,8 @@ namespace FifoAPI.Controllers
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             token = new JwtSecurityToken(
-            issuer: "Fifo.WebApi",
-            audience: "Fifo.WebApi",
+            issuer: "FifoAPI",
+            audience: "FifoAPI",
             claims: claims,
             expires: DateTime.Now.AddMinutes(15),
             signingCredentials: creds
