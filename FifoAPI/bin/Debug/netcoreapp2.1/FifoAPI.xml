@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FifoAPI</name>
+    </assembly>
+    <members>
+        <member name="M:FifoAPI.Controllers.AtividadeController.Get">
+            <summary>
+            Lista todas as atividades
+            </summary>
+            <returns> Retorna uma lista de atividades </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.AtividadeController.GetById(System.Int32)">
+            <summary>
+            Busca uma atividade através do Id
+            </summary>
+            <param name="id"> Id da atividade que será buscada </param>
+            <returns> Retorna uma atividade buscada </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.AtividadeController.Post(FifoAPI.Domains.Atividade)">
+            <summary>
+            Cadastra uma nova atividade
+            </summary>
+            <param name="novaAtividade"></param>
+            <returns> Retorna um Status Code 201 - Created </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.AtividadeController.Put(System.Int32,FifoAPI.Domains.Atividade)">
+            <summary>
+            Atualiza uma atividade existente
+            </summary>
+            <param name="id"> Id da atividade a ser atualizada</param>
+            <param name="atividadeAtualizada"></param>
+            <returns> Retorna um Status Code 204 - No Content e a atividade atualizada </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.AtividadeController.Delete(System.Int32)">
+            <summary>
+            Deleta uma atividade existente
+            </summary>
+            <param name="id"> Id da atividade a ser deletada </param>
+            <returns> Retorna um Status Code 202 - Accepted e a atividade deletada </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.ContaController.Login(FifoAPI.ViewModels.LoginViewModel)">
+            <summary>
+            Valida o usuário
+            </summary>
+            <param name="login"> Objeto com as informações de login </param>
+            <returns> Retorna um usuário autenticado </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.ContaController.Logout">
+            <summary>
+            Retira a validação do usuário
+            </summary>
+            <returns> Retorna um Status Code 200 - Ok </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.FilaController.Get">
+            <summary>
+            Lista todos os itens da fila
+            </summary>
+            <returns> Retorna uma lista de itens da fila </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.FilaController.GetById(System.Int32)">
+            <summary>
+            Busca um item da fila através do Id
+            </summary>
+            <param name="id"> Id do item buscado </param>
+            <returns> Retorna um item da fila </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.FilaController.Post(FifoAPI.Domains.Fila)">
+            <summary>
+            Cadastra um item da fila
+            </summary>
+            <param name="novoRegistro"></param>
+            <returns> Retorna um Status Code 201 - Created e o item cadastrado </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.FilaController.Put(System.Int32,FifoAPI.Domains.Fila)">
+            <summary>
+            Atualiza um item existente
+            </summary>
+            <param name="id"> Id do item a ser atualizado </param>
+            <param name="registroAtualizado"></param>
+            <returns> Retorna um Status Code 204 - No Content e o item atualizado </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.FilaController.Delete(System.Int32)">
+            <summary>
+            Deleta um item da fila
+            </summary>
+            <param name="id"> Id do item a ser deletado </param>
+            <returns> Retorna um Status Code 202 - Accepted e o item deletado </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.UsuarioController.Get">
+            <summary>
+            Lista todos os usuários
+            </summary>
+            <returns> Retorna uma lista de usuários </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.UsuarioController.GetById(System.Int32)">
+            <summary>
+            Busca um usuário através do Id
+            </summary>
+            <param name="id"> Id do usuário que será buscado </param>
+            <returns> Retorna um usuário buscado </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.UsuarioController.Post(FifoAPI.Domains.Usuario)">
+            <summary>
+            Cadastra um novo usuário
+            </summary>
+            <param name="novoUsuario"></param>
+            <returns> Retorna um Status Code 201 - Created </returns>
+        </member>
+        <member name="M:FifoAPI.Controllers.UsuarioController.Delete(System.Int32)">
+            <summary>
+            Deleta um usuário existente
+            </summary>
+            <param name="id"> Id do usuário a ser deletado </param>
+            <returns> Retorna um Status Code 202 - Accepted e o usuário deletado </returns>
+        </member>
+    </members>
+</doc>

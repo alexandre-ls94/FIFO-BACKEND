@@ -27,7 +27,12 @@ namespace FifoAPI.Controllers
         {
             _usuarioRepository = new UsuarioRepository();
         }
-        
+
+        /// <summary>
+        /// Valida o usuário
+        /// </summary>
+        /// <param name="login"> Objeto com as informações de login </param>
+        /// <returns> Retorna um usuário autenticado </returns>
         [HttpPost("Login")]
         public IActionResult Login(LoginViewModel login)
         {
@@ -62,6 +67,10 @@ namespace FifoAPI.Controllers
             });
         }
 
+        /// <summary>
+        /// Retira a validação do usuário
+        /// </summary>
+        /// <returns> Retorna um Status Code 200 - Ok </returns>
         [HttpPost("Logout")]
         public ActionResult Logout()
         {

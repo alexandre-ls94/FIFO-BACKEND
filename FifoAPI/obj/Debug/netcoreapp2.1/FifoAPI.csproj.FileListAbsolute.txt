@@ -23,10 +23,12 @@ C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\bin\Debug\netcoreapp2.1\
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.csprojAssemblyReference.cache
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.AssemblyInfoInputs.cache
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.AssemblyInfo.cs
-C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.csproj.CoreCompileInputs.cache
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.RazorAssemblyInfo.cache
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.RazorAssemblyInfo.cs
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.RazorTargetAssemblyInfo.cache
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.dll
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.pdb
 C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.genruntimeconfig.cache
+C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.csproj.CoreCompileInputs.cache
+C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\bin\Debug\netcoreapp2.1\FifoAPI.xml
+C:\Users\aleli\OneDrive\Documentos\FIFO-BACKEND\FifoAPI\obj\Debug\netcoreapp2.1\FifoAPI.xml

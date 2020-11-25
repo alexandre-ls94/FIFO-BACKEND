@@ -26,6 +26,10 @@ namespace FifoAPI.Controllers
             _filaRepository = new FilaRepository();
         }
 
+        /// <summary>
+        /// Lista todos os itens da fila
+        /// </summary>
+        /// <returns> Retorna uma lista de itens da fila </returns>
         [HttpGet]
         public IActionResult Get()
         {
@@ -39,6 +43,11 @@ namespace FifoAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Busca um item da fila através do Id
+        /// </summary>
+        /// <param name="id"> Id do item buscado </param>
+        /// <returns> Retorna um item da fila </returns>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
@@ -59,6 +68,11 @@ namespace FifoAPI.Controllers
             return NotFound("Registro não encontrado");
         }
 
+        /// <summary>
+        /// Cadastra um item da fila
+        /// </summary>
+        /// <param name="novoRegistro"></param>
+        /// <returns> Retorna um Status Code 201 - Created e o item cadastrado </returns>
         [HttpPost]
         public IActionResult Post(Fila novoRegistro)
         {
@@ -76,6 +90,12 @@ namespace FifoAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Atualiza um item existente
+        /// </summary>
+        /// <param name="id"> Id do item a ser atualizado </param>
+        /// <param name="registroAtualizado"></param>
+        /// <returns> Retorna um Status Code 204 - No Content e o item atualizado </returns>
         [HttpPut("{id}")]
         public IActionResult Put(int id, Fila registroAtualizado)
         {
@@ -98,6 +118,11 @@ namespace FifoAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Deleta um item da fila
+        /// </summary>
+        /// <param name="id"> Id do item a ser deletado </param>
+        /// <returns> Retorna um Status Code 202 - Accepted e o item deletado </returns>
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {

@@ -24,6 +24,10 @@ namespace FifoAPI.Controllers
             _usuarioRepository = new UsuarioRepository();
         }
 
+        /// <summary>
+        /// Lista todos os usuários
+        /// </summary>
+        /// <returns> Retorna uma lista de usuários </returns>
         [HttpGet]
         [Authorize]
         public IActionResult Get()
@@ -38,6 +42,11 @@ namespace FifoAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Busca um usuário através do Id
+        /// </summary>
+        /// <param name="id"> Id do usuário que será buscado </param>
+        /// <returns> Retorna um usuário buscado </returns>
         [HttpGet("{id}")]
         [Authorize]
         public IActionResult GetById(int id)
@@ -59,6 +68,11 @@ namespace FifoAPI.Controllers
             return NotFound("Usuário não encontrado");
         }
 
+        /// <summary>
+        /// Cadastra um novo usuário
+        /// </summary>
+        /// <param name="novoUsuario"></param>
+        /// <returns> Retorna um Status Code 201 - Created </returns>
         [HttpPost]
         public IActionResult Post(Usuario novoUsuario)
         {
@@ -86,6 +100,11 @@ namespace FifoAPI.Controllers
             }
         }
 
+        /// <summary>
+        /// Deleta um usuário existente
+        /// </summary>
+        /// <param name="id"> Id do usuário a ser deletado </param>
+        /// <returns> Retorna um Status Code 202 - Accepted e o usuário deletado </returns>
         [HttpDelete("{id}")]
         [Authorize]
         public IActionResult Delete(int id)
