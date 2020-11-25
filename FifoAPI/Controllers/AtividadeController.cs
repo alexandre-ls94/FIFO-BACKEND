@@ -16,7 +16,7 @@ namespace FifoAPI.Controllers
     [Route("api/[controller]")]
     
     [ApiController]
-    [Authorize]
+    //[Authorize]
     public class AtividadeController : ControllerBase
     {
         private IAtividadeRepository _atividadeRepository;

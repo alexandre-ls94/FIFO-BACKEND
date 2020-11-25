@@ -247,7 +247,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titulo\": \"PlayStation\"\r\n}",
+							"raw": "{\r\n    \"titulo\": \"PlayStation\",\r\n    \"jogadoresPorVez\": \"4\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -273,7 +273,7 @@
 						"header": [],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"titulo\": \"PlayStation5\"\r\n}",
+							"raw": "{\r\n    \"titulo\": \"PlayStation5\",\r\n    \"jogadoresPorVez\": 2\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -281,13 +281,13 @@
 							}
 						},
 						"url": {
-							"raw": "{{URL}}/Atividade/2",
+							"raw": "{{URL}}/Atividade/4",
 							"host": [
 								"{{URL}}"
 							],
 							"path": [
 								"Atividade",
-								"2"
+								"4"
 							]
 						}
 					},

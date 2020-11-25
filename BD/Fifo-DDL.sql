@@ -20,5 +20,8 @@ CREATE TABLE Fila (
 	IdUsuario INT FOREIGN KEY REFERENCES Usuario(Id)
 );
 
-ALTER TABLE Usuario
+ALTER TABLE Usuario 
 ADD Senha Varchar(55);
+
+ALTER TABLE Atividade
+ADD JogadoresPorVez INT DEFAULT (1);

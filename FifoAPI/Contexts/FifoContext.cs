@@ -36,6 +36,8 @@ namespace FifoAPI.Domains
                     .HasName("UQ__Atividad__7B406B561E581E49")
                     .IsUnique();
 
+                entity.Property(e => e.JogadoresPorVez).HasDefaultValueSql("((1))");
+
                 entity.Property(e => e.Titulo)
                     .IsRequired()
                     .HasMaxLength(255)

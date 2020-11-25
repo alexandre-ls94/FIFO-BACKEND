@@ -20,6 +20,7 @@ namespace FifoAPI.Repositories
             if (atividadeAtual != null)
             {
                 atividadeAtual.Titulo = atividadeAtualizada.Titulo;
+                atividadeAtual.JogadoresPorVez = atividadeAtualizada.JogadoresPorVez;
             }
 
             ctx.Atividade.Update(atividadeAtual);

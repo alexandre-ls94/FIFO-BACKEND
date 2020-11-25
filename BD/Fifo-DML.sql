@@ -12,3 +12,7 @@ VALUES ('Em Fila', '06-02-2020', 1, 1);
 UPDATE Usuario
 SET Senha = 'senha123'
 WHERE Id = 1;
+
+UPDATE Atividade
+SET JogadoresPorVez = 2
+WHERE Id = 1;

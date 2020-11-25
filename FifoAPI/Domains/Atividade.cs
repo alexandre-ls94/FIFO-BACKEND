@@ -12,6 +12,7 @@ namespace FifoAPI.Domains
 
         public int Id { get; set; }
         public string Titulo { get; set; }
+        public int? JogadoresPorVez { get; set; }
 
         public ICollection<Fila> Fila { get; set; }
     }
